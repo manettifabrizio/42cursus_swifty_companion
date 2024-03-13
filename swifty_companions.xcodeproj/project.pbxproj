@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66208A082BA08CBB004D3055 /* swifty_companionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */; };
+		66208A0A2BA08CBB004D3055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66208A092BA08CBB004D3055 /* ContentView.swift */; };
+		66208A0C2BA08CBC004D3055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66208A0B2BA08CBC004D3055 /* Assets.xcassets */; };
+		66208A0F2BA08CBC004D3055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66208A0E2BA08CBC004D3055 /* Preview Assets.xcassets */; };
+		66208A162BA11BE6004D3055 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66208A152BA11BE6004D3055 /* GifView.swift */; };
+		66208A192BA11D56004D3055 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 66208A182BA11D56004D3055 /* FLAnimatedImage */; };
+		66208A2E2BA12B53004D3055 /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A1E2BA12B53004D3055 /* IBMPlexMono-Bold.ttf */; };
+		66208A2F2BA12B53004D3055 /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A1F2BA12B53004D3055 /* IBMPlexMono-BoldItalic.ttf */; };
+		66208A302BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A202BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf */; };
+		66208A312BA12B53004D3055 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A212BA12B53004D3055 /* IBMPlexMono-ExtraLightItalic.ttf */; };
+		66208A322BA12B53004D3055 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A222BA12B53004D3055 /* IBMPlexMono-Italic.ttf */; };
+		66208A332BA12B53004D3055 /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A232BA12B53004D3055 /* IBMPlexMono-Light.ttf */; };
+		66208A342BA12B53004D3055 /* IBMPlexMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A242BA12B53004D3055 /* IBMPlexMono-LightItalic.ttf */; };
+		66208A352BA12B53004D3055 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A252BA12B53004D3055 /* IBMPlexMono-Medium.ttf */; };
+		66208A362BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A262BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf */; };
+		66208A372BA12B53004D3055 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A272BA12B53004D3055 /* IBMPlexMono-Regular.ttf */; };
+		66208A382BA12B53004D3055 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A282BA12B53004D3055 /* IBMPlexMono-SemiBold.ttf */; };
+		66208A392BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A292BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf */; };
+		66208A3A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf */; };
+		66208A3B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf */; };
+		66208A3C2BA12B53004D3055 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2C2BA12B53004D3055 /* OFL.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66208A042BA08CBB004D3055 /* swifty_companions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swifty_companions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_companionsApp.swift; sourceTree = "<group>"; };
+		66208A092BA08CBB004D3055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66208A0B2BA08CBC004D3055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66208A0E2BA08CBC004D3055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66208A152BA11BE6004D3055 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		66208A1E2BA12B53004D3055 /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
+		66208A1F2BA12B53004D3055 /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		66208A202BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		66208A212BA12B53004D3055 /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		66208A222BA12B53004D3055 /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
+		66208A232BA12B53004D3055 /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
+		66208A242BA12B53004D3055 /* IBMPlexMono-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		66208A252BA12B53004D3055 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		66208A262BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-MediumItalic.ttf"; sourceTree = "<group>"; };
+		66208A272BA12B53004D3055 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		66208A282BA12B53004D3055 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		66208A292BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		66208A2A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; };
+		66208A2B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-ThinItalic.ttf"; sourceTree = "<group>"; };
+		66208A2C2BA12B53004D3055 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		66208A3D2BA12D16004D3055 /* swifty-companions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swifty-companions-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66208A012BA08CBA004D3055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66208A192BA11D56004D3055 /* FLAnimatedImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662089FB2BA08CBA004D3055 = {
+			isa = PBXGroup;
+			children = (
+				66208A3D2BA12D16004D3055 /* swifty-companions-Info.plist */,
+				66208A1C2BA12B26004D3055 /* Shared */,
+				66208A152BA11BE6004D3055 /* GifView.swift */,
+				66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */,
+				66208A092BA08CBB004D3055 /* ContentView.swift */,
+				66208A0B2BA08CBC004D3055 /* Assets.xcassets */,
+				66208A0D2BA08CBC004D3055 /* Preview Content */,
+				66208A052BA08CBB004D3055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66208A052BA08CBB004D3055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66208A042BA08CBB004D3055 /* swifty_companions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66208A0D2BA08CBC004D3055 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66208A0E2BA08CBC004D3055 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66208A1C2BA12B26004D3055 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				66208A1D2BA12B31004D3055 /* Fonts */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		66208A1D2BA12B31004D3055 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				66208A2D2BA12B53004D3055 /* IBM_Plex_Mono */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		66208A2D2BA12B53004D3055 /* IBM_Plex_Mono */ = {
+			isa = PBXGroup;
+			children = (
+				66208A1E2BA12B53004D3055 /* IBMPlexMono-Bold.ttf */,
+				66208A1F2BA12B53004D3055 /* IBMPlexMono-BoldItalic.ttf */,
+				66208A202BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf */,
+				66208A212BA12B53004D3055 /* IBMPlexMono-ExtraLightItalic.ttf */,
+				66208A222BA12B53004D3055 /* IBMPlexMono-Italic.ttf */,
+				66208A232BA12B53004D3055 /* IBMPlexMono-Light.ttf */,
+				66208A242BA12B53004D3055 /* IBMPlexMono-LightItalic.ttf */,
+				66208A252BA12B53004D3055 /* IBMPlexMono-Medium.ttf */,
+				66208A262BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf */,
+				66208A272BA12B53004D3055 /* IBMPlexMono-Regular.ttf */,
+				66208A282BA12B53004D3055 /* IBMPlexMono-SemiBold.ttf */,
+				66208A292BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf */,
+				66208A2A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf */,
+				66208A2B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf */,
+				66208A2C2BA12B53004D3055 /* OFL.txt */,
+			);
+			name = IBM_Plex_Mono;
+			path = ../../../Downloads/IBM_Plex_Mono;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66208A032BA08CBA004D3055 /* swifty_companions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "swifty_companions" */;
+			buildPhases = (
+				66208A002BA08CBA004D3055 /* Sources */,
+				66208A012BA08CBA004D3055 /* Frameworks */,
+				66208A022BA08CBA004D3055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swifty_companions;
+			packageProductDependencies = (
+				66208A182BA11D56004D3055 /* FLAnimatedImage */,
+			);
+			productName = swifty_companions;
+			productReference = 66208A042BA08CBB004D3055 /* swifty_companions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662089FC2BA08CBA004D3055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					66208A032BA08CBA004D3055 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "swifty_companions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662089FB2BA08CBA004D3055;
+			packageReferences = (
+				66208A172BA11D56004D3055 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
+			productRefGroup = 66208A052BA08CBB004D3055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66208A032BA08CBA004D3055 /* swifty_companions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66208A022BA08CBA004D3055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66208A3C2BA12B53004D3055 /* OFL.txt in Resources */,
+				66208A352BA12B53004D3055 /* IBMPlexMono-Medium.ttf in Resources */,
+				66208A332BA12B53004D3055 /* IBMPlexMono-Light.ttf in Resources */,
+				66208A2F2BA12B53004D3055 /* IBMPlexMono-BoldItalic.ttf in Resources */,
+				66208A0F2BA08CBC004D3055 /* Preview Assets.xcassets in Resources */,
+				66208A372BA12B53004D3055 /* IBMPlexMono-Regular.ttf in Resources */,
+				66208A312BA12B53004D3055 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */,
+				66208A3B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf in Resources */,
+				66208A382BA12B53004D3055 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				66208A0C2BA08CBC004D3055 /* Assets.xcassets in Resources */,
+				66208A3A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf in Resources */,
+				66208A342BA12B53004D3055 /* IBMPlexMono-LightItalic.ttf in Resources */,
+				66208A2E2BA12B53004D3055 /* IBMPlexMono-Bold.ttf in Resources */,
+				66208A392BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */,
+				66208A362BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf in Resources */,
+				66208A322BA12B53004D3055 /* IBMPlexMono-Italic.ttf in Resources */,
+				66208A302BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66208A002BA08CBA004D3055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66208A0A2BA08CBB004D3055 /* ContentView.swift in Sources */,
+				66208A162BA11BE6004D3055 /* GifView.swift in Sources */,
+				66208A082BA08CBB004D3055 /* swifty_companionsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66208A102BA08CBC004D3055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66208A112BA08CBC004D3055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66208A132BA08CBC004D3055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swifty-companions-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.manettifabrizio.swifty-companions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66208A142BA08CBC004D3055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swifty-companions-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.manettifabrizio.swifty-companions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "swifty_companions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66208A102BA08CBC004D3055 /* Debug */,
+				66208A112BA08CBC004D3055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "swifty_companions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66208A132BA08CBC004D3055 /* Debug */,
+				66208A142BA08CBC004D3055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66208A172BA11D56004D3055 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66208A182BA11D56004D3055 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66208A172BA11D56004D3055 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 662089FC2BA08CBA004D3055 /* Project object */;
+}
