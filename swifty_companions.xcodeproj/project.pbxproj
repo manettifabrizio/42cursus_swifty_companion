@@ -28,6 +28,20 @@
 		66208A3A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2A2BA12B53004D3055 /* IBMPlexMono-Thin.ttf */; };
 		66208A3B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf */; };
 		66208A3C2BA12B53004D3055 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66208A2C2BA12B53004D3055 /* OFL.txt */; };
+		66208A3F2BA1F100004D3055 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66208A3E2BA1F100004D3055 /* LoginPageView.swift */; };
+		66208A412BA1F37D004D3055 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66208A402BA1F37D004D3055 /* SearchPage.swift */; };
+		665159E82BA362F300B51143 /* AchievementDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665159E72BA362F300B51143 /* AchievementDataModel.swift */; };
+		665159EA2BA3636100B51143 /* CoaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665159E92BA3636100B51143 /* CoaModel.swift */; };
+		665159EC2BA3638300B51143 /* CampusUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665159EB2BA3638300B51143 /* CampusUserModel.swift */; };
+		665159EF2BA363B700B51143 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665159EE2BA363B700B51143 /* Extensions.swift */; };
+		665159F12BA3652800B51143 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665159F02BA3652800B51143 /* Enum.swift */; };
+		66A00DFE2BA33E23000C7C7E /* CredentialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A00DFD2BA33E23000C7C7E /* CredentialModel.swift */; };
+		66A00E042BA34B1C000C7C7E /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A00E032BA34B1C000C7C7E /* Globals.swift */; };
+		66A00E062BA34B55000C7C7E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A00E052BA34B55000C7C7E /* UserModel.swift */; };
+		66CEDF702BA60901005238B3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 66CEDF6F2BA60901005238B3 /* .gitignore */; };
+		66D9ECDA2BA2083800A96FF7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9ECD92BA2083800A96FF7 /* AuthService.swift */; };
+		66D9ECDC2BA2088700A96FF7 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9ECDB2BA2088700A96FF7 /* UserServices.swift */; };
+		66D9ECDF2BA208FE00A96FF7 /* CredentialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9ECDE2BA208FE00A96FF7 /* CredentialManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +67,20 @@
 		66208A2B2BA12B53004D3055 /* IBMPlexMono-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-ThinItalic.ttf"; sourceTree = "<group>"; };
 		66208A2C2BA12B53004D3055 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		66208A3D2BA12D16004D3055 /* swifty-companions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swifty-companions-Info.plist"; sourceTree = "<group>"; };
+		66208A3E2BA1F100004D3055 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		66208A402BA1F37D004D3055 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		665159E72BA362F300B51143 /* AchievementDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDataModel.swift; sourceTree = "<group>"; };
+		665159E92BA3636100B51143 /* CoaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoaModel.swift; sourceTree = "<group>"; };
+		665159EB2BA3638300B51143 /* CampusUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusUserModel.swift; sourceTree = "<group>"; };
+		665159EE2BA363B700B51143 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		665159F02BA3652800B51143 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		66A00DFD2BA33E23000C7C7E /* CredentialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialModel.swift; sourceTree = "<group>"; };
+		66A00E032BA34B1C000C7C7E /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		66A00E052BA34B55000C7C7E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		66CEDF6F2BA60901005238B3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		66D9ECD92BA2083800A96FF7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		66D9ECDB2BA2088700A96FF7 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		66D9ECDE2BA208FE00A96FF7 /* CredentialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +98,19 @@
 		662089FB2BA08CBA004D3055 = {
 			isa = PBXGroup;
 			children = (
+				66CEDF6F2BA60901005238B3 /* .gitignore */,
 				66208A3D2BA12D16004D3055 /* swifty-companions-Info.plist */,
-				66208A1C2BA12B26004D3055 /* Shared */,
-				66208A152BA11BE6004D3055 /* GifView.swift */,
-				66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */,
 				66208A092BA08CBB004D3055 /* ContentView.swift */,
+				66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */,
+				665159ED2BA363A900B51143 /* Other */,
+				66A00E022BA34AE9000C7C7E /* Components */,
 				66208A0B2BA08CBC004D3055 /* Assets.xcassets */,
+				66D9ECDD2BA208F000A96FF7 /* Managers */,
+				66A00DFC2BA33E05000C7C7E /* Models */,
 				66208A0D2BA08CBC004D3055 /* Preview Content */,
 				66208A052BA08CBB004D3055 /* Products */,
+				66D9ECD82BA2082A00A96FF7 /* Services */,
+				66208A1C2BA12B26004D3055 /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +167,103 @@
 			);
 			name = IBM_Plex_Mono;
 			path = ../../../Downloads/IBM_Plex_Mono;
+			sourceTree = "<group>";
+		};
+		665159ED2BA363A900B51143 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				66A00E032BA34B1C000C7C7E /* Globals.swift */,
+				665159EE2BA363B700B51143 /* Extensions.swift */,
+				665159F02BA3652800B51143 /* Enum.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		66A00DFC2BA33E05000C7C7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66A00DFD2BA33E23000C7C7E /* CredentialModel.swift */,
+				66A00E052BA34B55000C7C7E /* UserModel.swift */,
+				665159E72BA362F300B51143 /* AchievementDataModel.swift */,
+				665159E92BA3636100B51143 /* CoaModel.swift */,
+				665159EB2BA3638300B51143 /* CampusUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66A00DFF2BA34AAB000C7C7E /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				66A00E012BA34AB2000C7C7E /* View */,
+				66A00E002BA34AB1000C7C7E /* ViewModel */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		66A00E002BA34AB1000C7C7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66A00E012BA34AB2000C7C7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66208A402BA1F37D004D3055 /* SearchPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66A00E022BA34AE9000C7C7E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66208A152BA11BE6004D3055 /* GifView.swift */,
+				66D9ECD52BA2077800A96FF7 /* LoginPage */,
+				66A00DFF2BA34AAB000C7C7E /* SearchPage */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66D9ECD52BA2077800A96FF7 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				66D9ECD72BA2079500A96FF7 /* ViewModel */,
+				66D9ECD62BA2079400A96FF7 /* View */,
+				66208A3E2BA1F100004D3055 /* LoginPageView.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		66D9ECD62BA2079400A96FF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66D9ECD72BA2079500A96FF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66D9ECD82BA2082A00A96FF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				66D9ECD92BA2083800A96FF7 /* AuthService.swift */,
+				66D9ECDB2BA2088700A96FF7 /* UserServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66D9ECDD2BA208F000A96FF7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				66D9ECDE2BA208FE00A96FF7 /* CredentialManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +346,7 @@
 				66208A392BA12B53004D3055 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */,
 				66208A362BA12B53004D3055 /* IBMPlexMono-MediumItalic.ttf in Resources */,
 				66208A322BA12B53004D3055 /* IBMPlexMono-Italic.ttf in Resources */,
+				66CEDF702BA60901005238B3 /* .gitignore in Resources */,
 				66208A302BA12B53004D3055 /* IBMPlexMono-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,9 +358,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D9ECDF2BA208FE00A96FF7 /* CredentialManager.swift in Sources */,
+				66208A3F2BA1F100004D3055 /* LoginPageView.swift in Sources */,
 				66208A0A2BA08CBB004D3055 /* ContentView.swift in Sources */,
+				66D9ECDC2BA2088700A96FF7 /* UserServices.swift in Sources */,
 				66208A162BA11BE6004D3055 /* GifView.swift in Sources */,
+				66D9ECDA2BA2083800A96FF7 /* AuthService.swift in Sources */,
+				66A00DFE2BA33E23000C7C7E /* CredentialModel.swift in Sources */,
+				665159EC2BA3638300B51143 /* CampusUserModel.swift in Sources */,
 				66208A082BA08CBB004D3055 /* swifty_companionsApp.swift in Sources */,
+				665159EA2BA3636100B51143 /* CoaModel.swift in Sources */,
+				665159F12BA3652800B51143 /* Enum.swift in Sources */,
+				665159EF2BA363B700B51143 /* Extensions.swift in Sources */,
+				66208A412BA1F37D004D3055 /* SearchPage.swift in Sources */,
+				665159E82BA362F300B51143 /* AchievementDataModel.swift in Sources */,
+				66A00E042BA34B1C000C7C7E /* Globals.swift in Sources */,
+				66A00E062BA34B55000C7C7E /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
