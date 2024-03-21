@@ -97,7 +97,7 @@ class User {
 //        state = state.filter({ $0 != BlackHoleState.novice })
 //        return state.first ?? .blackhole
 //    }
-
+//
 //    func getBlackHoleTime() -> Int? {
 //        return cursusUsers.map { cursus in
 //            if cursus.cursus.id == 21 {
