@@ -11,13 +11,16 @@ import SwiftUI
 struct UserProjects: View {
     @State var user_projects: [ProjectUsers];
     
+    func filterProjects() -> [ProjectUsers] {
+        return user_projects.filter { $0.status == "finished" }
+    }
     
     var body: some View {
         VStack (alignment: .leading) {
             Text("Projects")
                 .font(Font.custom("IBMPlexMono-Regular", size: 30)).underline()
                 .foregroundStyle(.white)
-            List(user_projects) { project in
+            List(filterProjects()) { project in
                 HStack {
                     Text(project.project.name)
                         .foregroundStyle(.white)
