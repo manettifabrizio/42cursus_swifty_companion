@@ -55,7 +55,7 @@ struct UserCards: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
             .navigationDestination(isPresented: $isSelectedUser) {
                 if let user = selectedUser {
-                       UserView(user: user)
+                       UserPage(user: user)
                    }
             }
     }

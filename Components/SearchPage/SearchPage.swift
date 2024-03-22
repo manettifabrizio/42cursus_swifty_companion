@@ -25,8 +25,8 @@ struct SearchPage:  View {
     
     func resetCred() {
         isAuth = false;
-        //        UserDefaults.standard.set("", forKey: "uid")
-        //        UserDefaults.standard.set("", forKey: "secret")
+        UserDefaults.standard.set("", forKey: "uid")
+        UserDefaults.standard.set("", forKey: "secret")
         UserDefaults.standard.set(false, forKey: "isAuth")
         
     }

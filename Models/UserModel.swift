@@ -149,7 +149,7 @@ struct CursusInfo: Codable {
     let name: String
 }
 
-struct Skills: Codable, Hashable {
+struct Skills: Codable, Hashable, Identifiable {
     let id: Int
     let name: String
     let level: Double

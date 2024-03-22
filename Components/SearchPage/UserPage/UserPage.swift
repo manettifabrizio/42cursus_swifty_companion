@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct UserView: View {
+struct UserPage: View {
     
     @State var user: User;
     
@@ -60,7 +60,7 @@ struct UserView: View {
                 .foregroundStyle(.white)
                 .font(Font.custom("IBMPlexMono-Regular", size: 30))
             LevelBar(level: user.getLevel())
-            UserProjects(user_projects: user.projectsUsers)
+            UserProjectsNSkills(user_projects: user.projectsUsers, user_skills: user.getSkills())
         }
         .font(Font.custom("IBMPlexMono-Regular", size: 14))
         .padding([.leading, .bottom, .trailing], 20)
