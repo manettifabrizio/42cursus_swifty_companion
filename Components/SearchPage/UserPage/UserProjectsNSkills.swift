@@ -8,8 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct UserProjects: View {
+struct UserProjectsNSkills: View {
     @State var user_projects: [ProjectUsers];
+    @State var isProjectSelected: Bool = true;
     
     func filterProjects() -> [ProjectUsers] {
         return user_projects.filter { $0.status == "finished" }
@@ -17,9 +18,23 @@ struct UserProjects: View {
     
     var body: some View {
         VStack (alignment: .leading) {
-            Text("Projects")
-                .font(Font.custom("IBMPlexMono-Regular", size: 30)).underline()
-                .foregroundStyle(.white)
+            HStack {
+                Button(action: {
+                    isProjectSelected = true
+                }, label: {
+                    Text("Projects")
+                        .font(Font.custom("IBMPlexMono-Regular", size: 30)).underline()
+                        .foregroundStyle(isProjectSelected ? .white : .gray)
+                })
+                Spacer()
+                Button(action: {
+                    isProjectSelected = false
+                }, label: {
+                    Text("Skills")
+                        .font(Font.custom("IBMPlexMono-Regular", size: 30)).underline()
+                        .foregroundStyle(isProjectSelected ? .gray : .white)
+                })
+            }
             List(filterProjects()) { project in
                 HStack {
                     Text(project.project.name)
