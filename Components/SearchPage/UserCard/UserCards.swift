@@ -18,36 +18,45 @@ struct UserCards: View {
     @Binding var users_list: [UserCardType];
     @Binding var isSearchLoading: Bool;
     @State var isUserLoading: Bool = false;
+    @Binding var isUserLoadingError: Bool;
+    @State var selectedUser: User?;
+    @State var isSelectedUser: Bool = false;
+    
     
     var body: some View {
         VStack {
-            if (users_list.unique().count > 0) {
-                List(users_list.unique()) { user in
-                    UserCard(user: user)
+        if (!isSearchLoading && !isUserLoading) {
+                if (users_list.unique().count > 0) {
+                    List(users_list.unique()) { user in
+                        UserCard(user: user,
+                                 selectedUser: $selectedUser,
+                                 isSelectedUser: $isSelectedUser,
+                                 isUserLoadingError: $isUserLoadingError,
+                                 isUserLoading: $isUserLoading
+                                )
+                    }
+                    .scrollContentBackground(.hidden)
+                    .listRowSeparator(.hidden)
+                    .frame(maxWidth: .infinity)
+                    .listStyle(PlainListStyle())
                 }
-                .scrollContentBackground(.hidden)
-                .listRowSeparator(.hidden)
-                .frame(maxWidth: .infinity)
-                .padding(0)
-                .listStyle(PlainListStyle())
-            }
-            else {
-                Text("No user found.")
+                else {
+                    Text("No user found.")
+                        .foregroundStyle(.white)
+                }
+        }
+        else {
+            ProgressView() {
+                Text(isSearchLoading ? "Searching..." : "Loading user...")
                     .foregroundStyle(.white)
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .overlay {
-            if (isSearchLoading == true) {
-                ZStack {
-                    Color.black
-                    ProgressView() {
-                        Text("Searching...")
-                    }.frame(width: 100, height: 100)
-                        .foregroundColor(.white)
-                        .tint(.white)
-                }
-            }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .navigationDestination(isPresented: $isSelectedUser) {
+                if let user = selectedUser {
+                       UserView(user: user)
+                   }
+            }
     }
 }

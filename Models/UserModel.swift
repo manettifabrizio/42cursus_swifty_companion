@@ -12,6 +12,8 @@ class User {
     let login: String
     let displayName: String
     let image: String
+    let wallet: Int
+    let correction_point: Int
     let location: String?
     let cursusUsers: [CursusUsers]
     let groups: [Groups]
@@ -34,6 +36,8 @@ class User {
         self.projectsUsers = data.projects_users
         self.achievements = data.achievements
         self.updated_at = data.updated_at
+        self.wallet = data.wallet
+        self.correction_point = data.correction_point
     }
 
     func getUrlPicture() -> URL {
@@ -42,7 +46,15 @@ class User {
         }
         return URL(string: image)!
     }
+    
+    func getCursusName() -> String {
+        return cursusUsers.last?.cursus.name ?? "Undefined"
+    }
 
+    func getCursusGrade() -> String {
+        return cursusUsers.last?.grade ?? "Undefined"
+    }
+    
     func getLevel() -> Double {
         if let cursus = cursusUsers.first(where: {$0.grade == "Learner" || $0.grade == "Member"}) {
             return cursus.level
@@ -59,58 +71,6 @@ class User {
         }
         return []
     }
-
-//    func getBlackholeState() -> BlackHoleState {
-//        let status = cursusUsers.map { cursus in
-//            if cursus.cursus.id == 21 {
-//                if cursus.blackholed_at != nil {
-//                    let dateFormat = DateFormatter()
-//                    dateFormat.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-//                    if let blackholeTime = getBlackHoleTime() {
-//                        return blackholeTime > 0 ? BlackHoleState.learner : .blackhole
-//                    }
-//                }
-//                return .member
-//            }
-//            if cursus.cursus.id == 9 {
-//                return .novice
-//            }
-//            if cursus.cursus.id == 67 {
-//                return .event
-//            }
-//            return .blackhole
-//        }
-//        let state = status.filter({ $0 != BlackHoleState.event })
-//        if state.contains(where: { $0 == BlackHoleState.blackhole }) {
-//            return .blackhole
-//        } else if state.contains(where: { $0 == BlackHoleState.learner }) {
-//            return .learner
-//        } else if state.contains(where: { $0 == BlackHoleState.member }) {
-//            return .member
-//        } else {
-//            return .novice
-//        }
-//        var state = status.filter({ $0 != BlackHoleState.blackhole })
-//        if state.count == 1 {
-//            return state.first ?? .blackhole
-//        }
-//        state = state.filter({ $0 != BlackHoleState.novice })
-//        return state.first ?? .blackhole
-//    }
-//
-//    func getBlackHoleTime() -> Int? {
-//        return cursusUsers.map { cursus in
-//            if cursus.cursus.id == 21 {
-//                if cursus.blackholed_at != nil {
-//                    let dateFormat = DateFormatter()
-//                    dateFormat.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-//    // swiftlint:disable:next line_length
-//                    return Int(((dateFormat.date(from: cursus.blackholed_at!)?.millisecondSince1978 ?? 0) - Date.now.millisecondSince1978) / 86400000)
-//                }
-//            }
-//            return 0
-//        }.filter { $0 != 0 }.first
-//    }
 
     func getTitle() -> String {
         var log: String = login
@@ -158,6 +118,8 @@ struct UserResponse: Codable {
     let id: Int
     let login: String
     let displayname: String
+    let wallet: Int
+    let correction_point: Int
     let image: ProfilePicture
     let location: String?
     let cursus_users: [CursusUsers]
@@ -184,6 +146,7 @@ struct CursusUsers: Codable {
 
 struct CursusInfo: Codable {
     let id: Int
+    let name: String
 }
 
 struct Skills: Codable, Hashable {
@@ -202,7 +165,7 @@ struct TitlesUsers: Codable, Hashable {
     let selected: Bool
 }
 
-struct ProjectUsers: Codable, Hashable {
+struct ProjectUsers: Codable, Hashable, Identifiable {
     static func == (lhs: ProjectUsers, rhs: ProjectUsers) -> Bool {
         return lhs.id == rhs.id
     }

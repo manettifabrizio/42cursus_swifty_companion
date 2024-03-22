@@ -39,26 +39,6 @@ class UserManager {
         }
     }
 
-    func getColorCoa(login: String,
-                     onLoading: @escaping (Bool) -> Void,
-                     onSucces: @escaping (String) -> Void,
-                     onError: @escaping (String) -> Void) {
-        onLoading(true)
-        UserServices.shared.getUserCoalition(login: login)
-            .sink { completion in
-                switch completion {
-                case .failure:
-                    onLoading(false)
-                    onError("Erreur dans le getColorCoa")
-                case .finished:
-                    onLoading(false)
-                }
-            } receiveValue: { coa in
-                coa != "" ? onSucces(coa) : onError("Erreur car le user n'a pas de coa")
-            }
-            .store(in: &cancellables)
-    }
-
     public func searchUserByCampus(login: String,
                                    onLoading: @escaping (Bool) -> Void,
                                    onSucces: @escaping ([CampusUser]) -> Void,

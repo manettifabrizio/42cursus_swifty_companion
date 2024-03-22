@@ -13,11 +13,14 @@ struct ContentView: View {
     
     @ViewBuilder
     var body: some View {
-        ZStack {
-            if (!isAuth) {
-                LoginPage(isAuth: $isAuth)
-            } else {
-                NavigationStack{
+        NavigationStack{
+            ZStack {
+                PlayerView()
+                    .edgesIgnoringSafeArea(.all)
+                    .background(.black)
+                if (!isAuth) {
+                    LoginPage(isAuth: $isAuth)
+                } else {
                     SearchPage(isAuth: $isAuth)
                 }
             }
