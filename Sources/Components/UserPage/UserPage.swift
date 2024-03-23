@@ -17,7 +17,7 @@ struct UserPage: View {
             HStack {
                 Spacer()
                 Text("\(user.displayName)")
-                    .foregroundStyle(Color(#colorLiteral(red: 1, green: 0.3820329607, blue: 0.005308574066, alpha: 1)))
+                    .foregroundStyle(Color("custom_orange"))
                     .font(Font.custom("IBMPlexMono-Regular", size: 30).weight(.bold))
                 Spacer()
                 
@@ -42,7 +42,7 @@ struct UserPage: View {
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 180, height: 180)
                             .clipped()
-                            .border(Color(#colorLiteral(red: 1, green: 0.3820329607, blue: 0.005308574066, alpha: 1)), width: 2)
+                            .border(Color("custom_orange"), width: 2)
                             .padding(.horizontal ,10)
                     } else if phase.error != nil {
                         Color.red
@@ -63,7 +63,7 @@ struct UserPage: View {
             UserProjectsNSkills(user_projects: user.projectsUsers, user_skills: user.getSkills())
         }
         .font(Font.custom("IBMPlexMono-Regular", size: 14))
-        .padding([.leading, .bottom, .trailing], 20)
+        .padding([.leading, .trailing], 20)
         .background(.black)
     }
 }

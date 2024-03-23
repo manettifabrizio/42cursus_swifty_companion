@@ -36,11 +36,8 @@ struct UserCard: View {
                 .foregroundStyle(.white)
             Spacer()
         }
-        .listRowSeparator(.hidden)
-        .listRowBackground(Color.clear)
-        .frame(maxWidth: .infinity)
+        .modifier(UnstyledListElementModifier())
         .border(Color.white)
-        .listRowInsets(EdgeInsets())
         .padding(.bottom, 8)
         .onTapGesture {
             getUser(login: user.login)

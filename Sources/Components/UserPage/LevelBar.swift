@@ -30,7 +30,7 @@ struct LevelBar: View {
                         width: geometry.size.width * sizeProgressBar,
                         height: 30
                     )
-                    .foregroundColor(Color(#colorLiteral(red: 1, green: 0.3820329607, blue: 0.005308574066, alpha: 1)))
+                    .foregroundColor(Color("custom_orange"))
                 Text(displayLevel)
                     .frame(width: geometry.size.width, height: 30)
                     .foregroundColor(.white)

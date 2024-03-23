@@ -35,10 +35,7 @@ struct UserCards: View {
                                  isUserLoading: $isUserLoading
                                 )
                     }
-                    .scrollContentBackground(.hidden)
-                    .listRowSeparator(.hidden)
-                    .frame(maxWidth: .infinity)
-                    .listStyle(PlainListStyle())
+                    .modifier(UnstyledListModifier())
                 }
                 else {
                     Text("No user found.")

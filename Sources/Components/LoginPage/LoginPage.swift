@@ -66,13 +66,13 @@ struct LoginPage:  View {
                         connexion()
                     }, label: {
                         Text("SIGN IN")
-                            .foregroundStyle(.orange)
+                            .foregroundStyle(Color("custom_orange"))
                             .padding(4)
                     })
                     .disabled(!(uid != "" && secret != ""))
                     .frame(maxWidth: .infinity)
                     .padding(10)
-                    .border(.orange)
+                    .border(Color("custom_orange"))
                     .padding(8)
                     
                 }

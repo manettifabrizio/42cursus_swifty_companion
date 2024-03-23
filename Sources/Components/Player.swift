@@ -24,8 +24,12 @@ class PlayerUIView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: .default, options: .mixWithOthers)
+        
         let url = Bundle.main.url(forResource: "42", withExtension: "mp4")!
         let player = AVPlayer(url: url)
+        
+        player.isMuted = true;
         player.actionAtItemEnd = .none
         player.play()
         
