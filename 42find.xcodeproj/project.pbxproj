@@ -47,12 +47,11 @@
 		66F16ADF2BACA597007F9D60 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F16ADE2BACA597007F9D60 /* SearchBar.swift */; };
 		66F16AE22BACAABE007F9D60 /* LevelBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F16AE12BACAABE007F9D60 /* LevelBar.swift */; };
 		66F16AE42BACB47F007F9D60 /* UserProjectsNSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F16AE32BACB47F007F9D60 /* UserProjectsNSkills.swift */; };
-		66F16AE62BACB485007F9D60 /* UserProjectNSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F16AE52BACB485007F9D60 /* UserProjectNSkill.swift */; };
 		66F16AE82BADC680007F9D60 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F16AE72BADC680007F9D60 /* UserDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		66208A042BA08CBB004D3055 /* swifty_companions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swifty_companions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66208A042BA08CBB004D3055 /* 42find.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 42find.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66208A072BA08CBB004D3055 /* swifty_companionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_companionsApp.swift; sourceTree = "<group>"; };
 		66208A092BA08CBB004D3055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66208A0B2BA08CBC004D3055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 		66F16ADE2BACA597007F9D60 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		66F16AE12BACAABE007F9D60 /* LevelBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBar.swift; sourceTree = "<group>"; };
 		66F16AE32BACB47F007F9D60 /* UserProjectsNSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProjectsNSkills.swift; sourceTree = "<group>"; };
-		66F16AE52BACB485007F9D60 /* UserProjectNSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProjectNSkill.swift; sourceTree = "<group>"; };
 		66F16AE72BADC680007F9D60 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +130,7 @@
 		66208A052BA08CBB004D3055 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66208A042BA08CBB004D3055 /* swifty_companions.app */,
+				66208A042BA08CBB004D3055 /* 42find.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,7 +265,6 @@
 				66F16AD72BAC607F007F9D60 /* UserPage.swift */,
 				66F16AE12BACAABE007F9D60 /* LevelBar.swift */,
 				66F16AE32BACB47F007F9D60 /* UserProjectsNSkills.swift */,
-				66F16AE52BACB485007F9D60 /* UserProjectNSkill.swift */,
 				66F16AE72BADC680007F9D60 /* UserDetails.swift */,
 			);
 			path = UserPage;
@@ -276,9 +273,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66208A032BA08CBA004D3055 /* swifty_companions */ = {
+		66208A032BA08CBA004D3055 /* 42find */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "swifty_companions" */;
+			buildConfigurationList = 66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "42find" */;
 			buildPhases = (
 				66208A002BA08CBA004D3055 /* Sources */,
 				66208A012BA08CBA004D3055 /* Frameworks */,
@@ -288,12 +285,12 @@
 			);
 			dependencies = (
 			);
-			name = swifty_companions;
+			name = 42find;
 			packageProductDependencies = (
 				66208A182BA11D56004D3055 /* FLAnimatedImage */,
 			);
 			productName = swifty_companions;
-			productReference = 66208A042BA08CBB004D3055 /* swifty_companions.app */;
+			productReference = 66208A042BA08CBB004D3055 /* 42find.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +308,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "swifty_companions" */;
+			buildConfigurationList = 662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "42find" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -327,7 +324,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66208A032BA08CBA004D3055 /* swifty_companions */,
+				66208A032BA08CBA004D3055 /* 42find */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +373,6 @@
 				66D9ECDA2BA2083800A96FF7 /* AuthService.swift in Sources */,
 				66F16AD82BAC607F007F9D60 /* UserPage.swift in Sources */,
 				66A00DFE2BA33E23000C7C7E /* CredentialModel.swift in Sources */,
-				66F16AE62BACB485007F9D60 /* UserProjectNSkill.swift in Sources */,
 				665159EC2BA3638300B51143 /* CampusUserModel.swift in Sources */,
 				66F16ADF2BACA597007F9D60 /* SearchBar.swift in Sources */,
 				66208A082BA08CBB004D3055 /* swifty_companionsApp.swift in Sources */,
@@ -528,8 +524,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,9 +534,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.manettifabrizio.swifty-companions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -559,8 +559,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,16 +569,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.manettifabrizio.swifty-companions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "swifty_companions" */ = {
+		662089FF2BA08CBA004D3055 /* Build configuration list for PBXProject "42find" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66208A102BA08CBC004D3055 /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "swifty_companions" */ = {
+		66208A122BA08CBC004D3055 /* Build configuration list for PBXNativeTarget "42find" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66208A132BA08CBC004D3055 /* Debug */,

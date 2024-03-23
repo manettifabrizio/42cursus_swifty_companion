@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66208A032BA08CBA004D3055"
-               BuildableName = "swifty_companions.app"
-               BlueprintName = "swifty_companions"
-               ReferencedContainer = "container:swifty_companions.xcodeproj">
+               BuildableName = "42find.app"
+               BlueprintName = "42find"
+               ReferencedContainer = "container:42find.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "66208A032BA08CBA004D3055"
-            BuildableName = "swifty_companions.app"
-            BlueprintName = "swifty_companions"
-            ReferencedContainer = "container:swifty_companions.xcodeproj">
+            BuildableName = "42find.app"
+            BlueprintName = "42find"
+            ReferencedContainer = "container:42find.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "66208A032BA08CBA004D3055"
-            BuildableName = "swifty_companions.app"
-            BlueprintName = "swifty_companions"
-            ReferencedContainer = "container:swifty_companions.xcodeproj">
+            BuildableName = "42find.app"
+            BlueprintName = "42find"
+            ReferencedContainer = "container:42find.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
